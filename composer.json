@@ -1,0 +1,20 @@
+{
+    "name": "mlh/mlh",
+    "autoload": {
+        "psr-4": {
+            "Mlh\\Mlh\\": "src/"
+        }
+    },
+    "scripts":{
+        "dev":"php index.php"
+    },
+    "authors": [
+        {
+            "name": "yorjandy"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
